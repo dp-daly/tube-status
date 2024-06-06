@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  width: 500px;
+}
+
+#wrap {
+  display: flex;
+  flex-direction: column;  
+  border: 2px solid red;
+  border-radius: 25px;
+  color: black;
+  padding: 10px;
+}
+
+#innerwrap {
+  display: grid; 
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+  gap: 10px;
+}
+
+#line {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px lightgray solid;
+  border-radius: 25px;
+  padding-left: 15px;
+}
